@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+
+<body style="text-align:center;">
+
+    <h1>REQUEST YOUR PROJECT</h1>
+
+    <label>Enter your first name:</label>
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="firstName"
+               pattern="[A-Za-z]{3}"
+               value="@Model.FirstName">
+    </form>
+    <br>
+
+    <label>Enter your last name:</label>
+
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="LastName"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Email Address:</label>
+    <form id="myGeeks">
+        <input type="email"
+               id="text_id"
+               name="Email"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Contact Number:</label>
+    <form id="myGeeks">
+        <input type="tel"
+               id="text_id"
+               name="Tel"
+               value="">
+    </form>
+    <br>
+
+    <label>Company Name:</label>
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="Company"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Project Name:</label>
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="Project"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Project Type:</label>
+    <label>School/College programming assignment,Android Mobile, Website with hosting (like this), Website without hosting,In House System</label>
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="Type"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Project Description:</label>
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="Description"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Expected completion date:</label>
+    <form id="myGeeks">
+        <input type="date"
+               id="text_id"
+               name="Date"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+
+    <label>Payment transfer type:</label>
+    <label>South Africa Rands accepted, EFT, Paypal, Crypto(Bitcoin, Etherium),NFT</label>
+
+    <form id="myGeeks">
+        <input type="text"
+               id="text_id"
+               name="PaymentType"
+               pattern="[A-Za-z]{3}"
+               value="">
+    </form>
+    <br>
+
+    <label>Payment offer amount:</label>
+    <form id="myGeeks">
+        <input type="number"
+               id="text_id"
+               name="Amount"
+               value="">
+    </form>
+    <br>
+
+    <input type="submit" value="Submit">
+</body>
+
+</html>
